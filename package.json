@@ -1,0 +1,25 @@
+{
+  "name": "wknd-headless",
+  "version": "1.0.3",
+  "description": "Headless first demo.",
+  "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "stub": "aem-site-template-builder stub",
+    "deploy": "curl -u admin:admin -F file=@gql-demo-template-latest.zip http://localhost:4502/bin/wcm/site-template/import"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "2.3.1"
+  },
+  "siteTemplate": {
+    "title": "Pure Headless Demo Site",
+    "createdBy": "Lamont Crook",
+    "useCases": [
+      "General purpose REACT site for headless first or pure headless implementations."
+    ],
+    "docsUrl": "",
+    "showcaseUrl": "",
+    "sourceRepositoryUrl": "https://github.com/lamontacrook/gql-demo-template.git",
+    "openItem": "{Path}/en/home"
+  }
+}

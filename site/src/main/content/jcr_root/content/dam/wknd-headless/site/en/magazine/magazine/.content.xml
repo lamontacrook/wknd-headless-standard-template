@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="857062a1-c93c-429a-9613-4272f70b7dd9">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="magazine"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine"
+        dam:processingId="61e46752-7d42-410b-b415-0853d06da18c"
+        dam:processingRenditions="[cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cqdam.photoshop.x-creative-json,cqdam.machine.metadata.features.json,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.48.48.png,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.colors.json,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cqdam.metadata.xml]"
+        dam:processingRequestedDate="{Date}2022-11-29T17:33:54.759Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="61e46752-7d42-410b-b415-0853d06da18c"
+        jcr:lastModified="{Date}2024-04-26T16:17:24.032Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Magazine"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-26T16:17:24.032Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                block="[/content/dam/wknd-headless/site/en/shared/featured-article,/content/dam/wknd-headless/site/en/shared/recent-articles]"
+                block_x0040_LastModified="{Date}2024-04-25T18:42:56.411Z"
+                block_x0040_LastModifiedBy="lamont@adobe.com"
+                header="/content/dam/wknd-headless/site/en/magazine/components/header"
+                header_x0040_LastModified="{Date}2022-11-23T19:44:55.938Z"
+                positionInNavigation="pos1"
+                positionInNavigation_x0040_LastModified="{Date}2022-11-06T16:00:34.990Z"
+                screenHeader="/content/dam/wknd-headless/site/en/magazine/components/magazine-header"
+                screenHeader_x0040_LastModified="{Date}2022-11-17T17:17:10.080Z"
+                screenName="Magazine"
+                screenName_x0040_LastModified="{Date}2022-10-19T18:56:49.056Z"/>
+        </data>
+        <metadata
+            cq:tags="[wknd-headless:location/magazine]"
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

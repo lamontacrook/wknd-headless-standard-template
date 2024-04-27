@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e7bdad29-8b6f-4e09-8562-1a0ce24e59a5">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="faq"
+        cq:parentPath="/content/dam/wknd-headless/site/en/faq"
+        dam:processingId="6cd89daa-02e1-4973-a6a0-760c5b7941ff"
+        dam:processingRenditions="[cqdam.text.txt,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cq5dam.preview.pdf,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.colors.json,cqdam.metadata.xml,cqdam.machine.metadata.features.json,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json]"
+        dam:processingRequestedDate="{Date}2023-01-22T16:18:26.267Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="6cd89daa-02e1-4973-a6a0-760c5b7941ff"
+        jcr:lastModified="{Date}2024-02-20T17:26:31.997Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="FAQ"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-10-25T16:01:03.832Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                block_x0040_LastModified="{Date}2022-11-06T15:21:21.798Z"
+                header="/content/dam/wknd-headless/site/en/faq/components/header"
+                header_x0040_LastModified="{Date}2023-01-22T16:18:26.061Z"
+                includeInTopNav="{Boolean}false"
+                includeInTopNav_x0040_LastModified="{Date}2023-10-25T16:01:03.677Z"
+                positionInNavigation="pos4"
+                positionInNavigation_x0040_LastModified="{Date}2024-02-20T17:26:31.997Z"
+                screenName="FAQ"
+                screenName_x0040_LastModified="{Date}2022-11-06T15:21:37.450Z"/>
+        </data>
+        <metadata
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

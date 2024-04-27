@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8ca06ed7-2ace-4506-bf4c-b9fa15e7443b">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="header"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/components"
+        dam:processingId="534f3d3d-8d36-47e3-998e-2ad51ec8f809"
+        dam:processingRenditions="[cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cqdam.text.txt,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.319.319.png,cq5dam.preview.pdf,cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.colors.json,cqdam.metadata.xml]"
+        dam:processingRequestedDate="{Date}2022-12-13T19:54:01.182Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="189e1627-0aa7-4aa3-b751-b0db3107c54b"
+        jcr:lastModified="{Date}2024-04-26T16:25:27.416Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Header"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-26T16:25:27.416Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                banner="/content/dam/wknd-headless/assets/AdobeStock_302114365.jpeg"
+                banner_x0040_LastModified="{Date}2022-11-23T19:46:07.625Z"
+                navigationColor="light-nav"
+                navigationColor_x0040_LastModified="{Date}2022-12-13T19:54:01.035Z"
+                placeholder_x0040_LastModified="{Date}2022-11-23T19:43:03.464Z"
+                teaser="/content/dam/wknd-headless/site/en/magazine/components/hero"
+                teaser_x0040_LastModified="{Date}2022-11-23T19:46:07.625Z"/>
+        </data>
+        <metadata
+            cq:tags="[wknd-headless:location/magazine]"
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

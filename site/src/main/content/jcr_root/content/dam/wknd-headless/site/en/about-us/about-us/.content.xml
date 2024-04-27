@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="345b13ab-a0a1-4bae-a42d-e0caa0532a18">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="about-us"
+        cq:parentPath="/content/dam/wknd-headless/site/en/about-us"
+        dam:processingId="bc010131-86ab-4db1-be45-062809a6ff9d"
+        dam:processingRenditions="[cq5dam.preview.pdf,cqdam.text.txt,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cqdam.photoshop.x-creative-json,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg]"
+        dam:processingRequestedDate="{Date}2022-12-01T05:43:48.262Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="bc010131-86ab-4db1-be45-062809a6ff9d"
+        jcr:lastModified="{Date}2024-02-20T20:36:27.956Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="About Us"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-08-31T04:59:38.589Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                block="[/content/dam/wknd-headless/site/en/about-us/components/our-contributers]"
+                block_x0040_ContentType="string"
+                block_x0040_LastModified="{Date}2024-02-20T20:36:27.956Z"
+                header="/content/dam/wknd-headless/site/en/about-us/components/header"
+                header_x0040_ContentType="content-fragment"
+                header_x0040_LastModified="{Date}2024-02-20T20:36:27.955Z"
+                includeInTopNav="{Boolean}false"
+                includeInTopNav_x0040_ContentType="boolean"
+                includeInTopNav_x0040_LastModified="{Date}2024-02-20T20:36:27.955Z"
+                positionInNavigation="pos3"
+                positionInNavigation_x0040_ContentType="string"
+                positionInNavigation_x0040_LastModified="{Date}2024-02-20T20:36:27.956Z"
+                screenName="About Us"
+                screenName_x0040_LastModified="{Date}2022-11-06T15:20:14.697Z"/>
+        </data>
+        <metadata
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured"/>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

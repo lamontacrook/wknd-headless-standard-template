@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wknd-headless"/>
+    <filter root="/content/experience-fragments/wknd-headless"/>
+    <filter root="/content/dam/wknd-headless"/>
+    <filter root="/content/dam/extension-configurations"/>
+    <filter root="/content/wknd-headless" mode="merge"/>
+    <filter root="/content/cq:tags/wknd-headless"/>
+</workspaceFilter>

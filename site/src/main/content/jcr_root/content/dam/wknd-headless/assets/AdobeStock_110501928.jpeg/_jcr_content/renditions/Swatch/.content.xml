@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    sling:resourceType="dam/rendition/smartcrop">
+    <jcr:content
+        dam:scene7ID="sa|1852255701"
+        jcr:lastModified="{Date}2024-04-26T22:18:45.352Z"
+        jcr:lastModifiedBy="dam-writer-service"
+        jcr:primaryType="nt:unstructured"
+        blueColor="{Long}128"
+        croptype="swatch"
+        greenColor="{Long}139"
+        height="{Long}100"
+        left="{Double}0.2899305555555556"
+        manualCrop="{Boolean}false"
+        normalizedHeight="{Double}0.011863425925925927"
+        normalizedWidth="{Double}0.007908950617283951"
+        redColor="{Long}1"
+        rendition.handler.id="smartcrop.rendition.handler"
+        source="nui"
+        top="{Double}0.8399884259259259"
+        width="{Long}100"/>
+</jcr:root>

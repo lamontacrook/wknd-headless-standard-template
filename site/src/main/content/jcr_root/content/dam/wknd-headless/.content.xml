@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-04-06T18:25:58.152Z"
+        cq:lastReplicated_publish="{Date}2023-04-06T18:25:58.152Z"
+        cq:lastReplicated_scene7="{Date}2022-11-23T20:36:43.913Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicatedBy_scene7="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        jcr:created="{Date}2022-10-19T14:44:47.288Z"
+        jcr:createdBy="lamont@adobe.com"
+        jcr:lastModified="{Date}2022-11-06T15:24:25.911Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="WKND Headless"
+        metadataSchema="System Default"
+        postProcessWF="System Default"
+        processingProfile="/conf/global/settings/dam/processing/GQL-Demo"
+        sourcing="false">
+        <policies jcr:primaryType="nt:unstructured">
+            <cfm jcr:primaryType="nt:unstructured"/>
+        </policies>
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:lastReplicated="{Date}2023-04-06T18:26:06.172Z"
+    cq:lastReplicated_publish="{Date}2023-04-06T18:26:06.172Z"
+    cq:lastReplicatedBy="lamont@adobe.com"
+    cq:lastReplicatedBy_publish="lamont@adobe.com"
+    cq:lastReplicationAction="Activate"
+    cq:lastReplicationAction_publish="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus]"
+    jcr:primaryType="sling:Folder"
+    jsonPatch="\[{&quot;op&quot;:&quot;replace&quot;,&quot;path&quot;:&quot;/elements/description&quot;,&quot;value&quot;:{&quot;value&quot;:&quot;&lt;p>The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.&lt;/p>&quot;,&quot;contentType&quot;:&quot;text/html&quot;}}]"/>

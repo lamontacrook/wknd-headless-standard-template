@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-04-26T14:17:27.158Z"
+        cq:lastModifiedBy="lamont@adobe.com"
+        cq:tags="[]"
+        cq:template="/conf/wknd-headless/settings/wcm/templates/content-page"
+        cq:xfMasterVariation="{Boolean}true"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        sling:resourceType="core/wcm/components/page/v3/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/container/v1/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container">
+                    <image
+                        jcr:created="{Date}2024-04-26T14:15:48.547Z"
+                        jcr:createdBy="lamont@adobe.com"
+                        jcr:lastModified="{Date}2024-04-26T14:16:34.590Z"
+                        jcr:lastModifiedBy="lamont@adobe.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/image/v3/image"
+                        fileReference="/content/dam/aem-demo-assets/en/site/wknd-logo-dk.svg"
+                        imageFromPageImage="false"/>
+                    <text
+                        jcr:created="{Date}2024-04-26T14:17:08.259Z"
+                        jcr:createdBy="lamont@adobe.com"
+                        jcr:lastModified="{Date}2024-04-26T14:17:27.090Z"
+                        jcr:lastModifiedBy="lamont@adobe.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/text/v2/text"
+                        text="&lt;p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>Many of the beautiful images in the WKND site are available for purchase via&amp;nbsp;&lt;a href=&quot;https://stock.adobe.com/&quot;>Adobe Stock&lt;/a>.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

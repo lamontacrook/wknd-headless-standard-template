@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8da6eaab-d5ae-4067-b209-d6acc4e229cf">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.766Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.766Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="hero"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/components"
+        dam:processingId="d7c41fca-32ac-4a44-871a-c77bf61fbb5d"
+        dam:processingRenditions="[cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cqdam.text.txt,cqdam.machine.metadata.features.json,cq5dam.preview.pdf,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2023-01-25T16:04:50.847Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="d7c41fca-32ac-4a44-871a-c77bf61fbb5d"
+        jcr:lastModified="{Date}2024-04-26T16:25:43.035Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Hero"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-26T16:25:43.035Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                asset="/content/dam/wknd-headless/assets/AdobeStock_163855721.mp4"
+                asset_x0040_LastModified="{Date}2023-01-25T16:04:50.520Z"
+                callToAction="Read Now"
+                callToAction_x0040_LastModified="{Date}2022-11-28T22:08:18.092Z"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2022-11-23T19:56:34.661Z"
+                link="/content/experience-fragments/wknd-site/language-masters/en/magazine/western-australia/western-australia"
+                link_x0040_LastModified="{Date}2022-11-28T22:10:02.718Z"
+                placeholder_x0040_LastModified="{Date}2022-11-22T19:50:24.610Z"
+                preTitle="A camper’s heaven"
+                preTitle_x0040_LastModified="{Date}2022-11-22T19:50:24.612Z"
+                style="hero"
+                style_x0040_LastModified="{Date}2023-09-21T23:00:00.401Z"
+                title="Camping in Western Australia"
+                title_x0040_LastModified="{Date}2022-11-22T19:50:24.612Z"/>
+        </data>
+        <metadata
+            cq:tags="[wknd-headless:location/magazine]"
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

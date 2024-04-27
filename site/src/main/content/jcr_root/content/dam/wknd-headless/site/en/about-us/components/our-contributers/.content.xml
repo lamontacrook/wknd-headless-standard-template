@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3184dcd3-cd43-4b91-b20c-72572d903b37">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="our-contributers"
+        cq:parentPath="/content/dam/wknd-headless/site/en/about-us/components"
+        cq:versionCreator="lamont@adobe.com"
+        dam:processingId="0fd47415-460a-4ffb-b313-ccbc616f1b1c"
+        dam:processingRenditions="[cqdam.machine.metadata.tags.json,cqdam.photoshop.x-creative-json,cq5dam.preview.pdf,cq5dam.thumbnail.48.48.png,cqdam.metadata.xml,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.thumbnail.319.319.png,cqdam.text.txt]"
+        dam:processingRequestedDate="{Date}2022-12-01T05:35:09.678Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="0fd47415-460a-4ffb-b313-ccbc616f1b1c"
+        jcr:lastModified="{Date}2022-12-01T05:35:09.664Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Our Contributers"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-12-01T05:35:09.664Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                imageListItems="[/content/experience-fragments/wknd-site/language-masters/en/contributors/ian-provo/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/jacob-wester/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/jake-hammer/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/justin-barr/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/kumar-selveraj/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/sofia-sjoeberg/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/stacey-roswells/master]"
+                imageListItems_x0040_LastModified="{Date}2022-12-01T05:35:09.527Z"
+                style="image-grid"
+                style_x0040_LastModified="{Date}2022-12-01T05:35:09.528Z"/>
+        </data>
+        <metadata
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

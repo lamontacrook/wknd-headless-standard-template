@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    sling:resourceType="dam/rendition/smartcrop">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-04-06T18:26:01.789Z"
+        cq:lastReplicated_publish="{Date}2023-04-06T18:26:01.789Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        dam:scene7ID="sa|1376526279"
+        jcr:lastModified="{Date}2023-01-04T00:30:45.540Z"
+        jcr:lastModifiedBy="dam-writer-service"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        blueColor="{Long}86"
+        croptype="swatch"
+        greenColor="{Long}107"
+        height="{Long}100"
+        left="{Double}0.47"
+        manualCrop="{Boolean}false"
+        normalizedHeight="{Double}0.05498625343664084"
+        normalizedWidth="{Double}0.03666666666666667"
+        redColor="{Long}122"
+        rendition.handler.id="smartcrop.rendition.handler"
+        source="nui"
+        top="{Double}0.3449137715571107"
+        width="{Long}100"/>
+</jcr:root>

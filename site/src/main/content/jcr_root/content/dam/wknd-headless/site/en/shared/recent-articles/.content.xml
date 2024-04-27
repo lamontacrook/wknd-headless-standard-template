@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="626a1d1a-3f94-40d7-81c0-8583890e9497">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_scene7="{Date}2024-04-25T18:40:45.205Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicatedBy_scene7="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:name="recent-articles"
+        cq:parentPath="/content/dam/wknd-headless/site/en/shared"
+        dam:processingId="dfd730ec-30a2-4f76-9c31-dc30271637d3"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.features.json,cqdam.machine.metadata.colors.json,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cqdam.metadata.xml,cqdam.text.txt]"
+        dam:processingRequestedDate="{Date}2023-01-08T00:38:19.686Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="dfd730ec-30a2-4f76-9c31-dc30271637d3"
+        jcr:lastModified="{Date}2024-04-25T18:34:13.425Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Recent Articles"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-25T03:22:02.119Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                imageListItems="[/content/experience-fragments/wknd-site/language-masters/en/magazine/arctic-surfing/arctic-surfing,/content/experience-fragments/wknd-site/language-masters/en/magazine/san-diego-surf/san-diego-surf,/content/experience-fragments/wknd-site/language-masters/en/magazine/ski-touring/ski-touring,/content/experience-fragments/wknd-site/language-masters/en/magazine/western-australia/western-australia]"
+                imageListItems_x0040_LastModified="{Date}2023-01-08T00:38:19.499Z"
+                imageListTitle="Recent Articles"
+                imageListTitle_x0040_LastModified="{Date}2022-11-06T15:31:09.913Z"
+                listItems="[/content/dam/wknd-headless/site/en/magazine/san-diego-surf/article,/content/dam/wknd-headless/site/en/magazine/ski-touring/article,/content/dam/wknd-headless/site/en/magazine/western-australia/article,/content/dam/wknd-headless/site/en/magazine/arctic-surfing/article]"
+                listItems_x0040_LastModified="{Date}2024-04-25T03:22:01.991Z"
+                listItems_x0040_LastModifiedBy="lamont@adobe.com"
+                style="slider-list"
+                style_x0040_LastModified="{Date}2024-04-25T18:34:13.425Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <metadata
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

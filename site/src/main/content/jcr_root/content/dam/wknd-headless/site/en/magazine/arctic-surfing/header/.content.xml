@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ab5bd333-6e0f-4f1b-b129-a5dd9ae779de">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="header"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/arctic-surfing"
+        dam:processingId="9e8b93b3-4546-4b8f-8db9-b9698778cd61"
+        dam:processingRenditions="[cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.features.json,cqdam.machine.metadata.tags.json,cqdam.metadata.xml,cq5dam.preview.pdf,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2023-01-03T22:13:51.181Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="218041fe-ac56-438e-a009-a0794de7fb4e"
+        jcr:lastModified="{Date}2024-04-26T16:27:34.607Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Header"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-26T16:27:34.607Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                banner="/content/dam/aem-demo-assets/en/magazine/arctic-surfing/northern-lights.JPG"
+                banner_x0040_LastModified="{Date}2023-01-03T22:13:51.024Z"
+                headerBanner="/content/dam/aem-demo-assets/en/magazine/arctic-surfing/surfer-wave-02.JPG"
+                headerBanner_x0040_LastModified="{Date}2022-11-22T22:37:41.758Z"
+                headerTeaser_x0040_LastModified="{Date}2022-11-22T22:36:37.941Z"
+                navigationColor="light-nav"
+                navigationColor_x0040_LastModified="{Date}2023-01-03T22:13:51.024Z"
+                placeholder_x0040_LastModified="{Date}2022-11-22T22:36:37.941Z"/>
+        </data>
+        <metadata
+            cq:tags="[wknd-headless:location/magazine]"
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2e321776-7f38-453a-b17f-e805d49ca6a1">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.766Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.766Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="header"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/san-diego-surf"
+        dam:processingId="df0e8d61-395c-4ebc-aeca-5caad2923410"
+        dam:processingRenditions="[cqdam.text.txt,cq5dam.preview.pdf,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.319.319.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.features.json]"
+        dam:processingRequestedDate="{Date}2023-01-03T21:20:19.563Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="e8d6ff94-2743-43d0-b905-da2b88b8ff3a"
+        jcr:lastModified="{Date}2024-04-25T14:10:13.510Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Header"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-03T21:20:19.549Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                banner="/content/dam/aem-demo-assets/en/magazine/san-diego-surf-spots/adobestock-266406767.jpeg"
+                banner_x0040_LastModified="{Date}2024-04-25T14:10:13.510Z"
+                banner_x0040_LastModifiedBy="lamont@adobe.com"
+                navigationColor="light-nav"
+                navigationColor_x0040_LastModified="{Date}2023-01-03T21:20:19.410Z"
+                placeholder_x0040_LastModified="{Date}2022-11-23T19:00:16.314Z"
+                teaser_x0040_LastModified="{Date}2022-11-23T19:00:16.314Z"/>
+        </data>
+        <metadata
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

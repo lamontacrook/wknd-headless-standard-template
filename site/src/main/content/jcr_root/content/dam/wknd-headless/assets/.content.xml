@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        cq:conf="\0"
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-26T22:32:41.979Z"
+        cq:lastReplicated_publish="{Date}2024-04-26T22:32:41.979Z"
+        cq:lastReplicated_scene7="{Date}2022-11-15T13:38:03.281Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicatedBy_scene7="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        jcr:lastModified="{Date}2022-12-05T16:47:25.589Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Assets"
+        imageProfile="/conf/global/settings/dam/adminui-extension/imageprofile/smart-crop"
+        s7-sync-mode="inherit"
+        sourcing="false"
+        videoProfile="/libs/settings/dam/dm/presets/video/Adaptive_Video_Encoding">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

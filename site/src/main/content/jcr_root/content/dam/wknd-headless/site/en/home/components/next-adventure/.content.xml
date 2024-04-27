@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="41d92845-a8ea-4a20-88fd-e3b785063368">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="next-adventure"
+        cq:parentPath="/content/dam/wknd-headless/site/en/home/components"
+        dam:processingId="9b50cb01-97d5-4695-973e-3d597d240d6f"
+        dam:processingRenditions="[cq5dam.preview.pdf,cqdam.machine.metadata.features.json,cq5dam.thumbnail.140.100.png,cq5dam.thumbnail.319.319.png,cq5dam.web.1280.1280.jpeg,cqdam.metadata.xml,cqdam.text.txt,cqdam.photoshop.x-creative-json,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2022-11-28T20:06:16.812Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="9b50cb01-97d5-4695-973e-3d597d240d6f"
+        jcr:lastModified="{Date}2024-04-26T15:30:25.808Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Next Adventure"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-28T20:06:16.796Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                asset="/content/dam/aem-demo-assets/en/adventures/climbing-new-zealand/AdobeStock_166394648.jpeg"
+                asset_x0040_LastModified="{Date}2023-08-23T16:56:41.350Z"
+                callToAction="Book Now"
+                callToAction_x0040_LastModified="{Date}2022-11-28T19:57:40.181Z"
+                description="&lt;p>Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2022-11-22T20:02:23.984Z"
+                link="/content/dam/aem-demo-assets/en/adventures/climbing-new-zealand/climbing-new-zealand"
+                link_x0040_LastModified="{Date}2022-11-28T19:58:02.543Z"
+                placeholder_x0040_LastModified="{Date}2022-11-22T19:47:49.032Z"
+                preTitle="A memory you will cherish forever."
+                preTitle_x0040_LastModified="{Date}2022-11-28T20:06:16.663Z"
+                style="hero"
+                style_x0040_LastModified="{Date}2024-04-25T20:33:04.355Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"
+                title="Climbing New Zealand"
+                title_x0040_LastModified="{Date}2024-02-23T16:12:07.798Z"/>
+        </data>
+        <metadata
+            cq:tags="[wknd-headless:location/home]"
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="aaeb14b5-520d-4f6f-8618-d3c7332278ff">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="header"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/ski-touring"
+        dam:processingId="60dcf40c-3672-4779-8adb-7f2bfdaf35cd"
+        dam:processingRenditions="[cqdam.machine.metadata.colors.json,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cq5dam.thumbnail.319.319.png,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cqdam.text.txt,cq5dam.preview.pdf,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.features.json]"
+        dam:processingRequestedDate="{Date}2023-01-03T21:59:38.351Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="85540fac-02a8-4c0d-96fd-a30eccb26de8"
+        jcr:lastModified="{Date}2023-01-03T21:59:38.333Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Header"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-03T21:59:38.333Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                banner="/content/dam/aem-demo-assets/en/magazine/skitouring/Skitouring1Sjoeberg.JPG"
+                banner_x0040_LastModified="{Date}2023-01-03T21:59:38.186Z"
+                navigationColor="light-nav"
+                navigationColor_x0040_LastModified="{Date}2023-01-03T21:59:38.185Z"
+                placeholder_x0040_LastModified="{Date}2022-11-23T19:34:31.881Z"
+                teaser_x0040_LastModified="{Date}2022-11-23T19:34:31.881Z"/>
+        </data>
+        <metadata
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

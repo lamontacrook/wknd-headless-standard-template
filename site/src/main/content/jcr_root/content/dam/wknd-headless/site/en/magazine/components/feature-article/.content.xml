@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b1cb3e5f-518e-4317-8b59-1e27683f76b2">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="feature-article"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/components"
+        dam:processingId="7953d663-7968-4e38-9bb8-cf2be0640713"
+        dam:processingRenditions="[cq5dam.thumbnail.48.48.png,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.colors.json,cqdam.metadata.xml,cq5dam.web.1280.1280.jpeg,cq5dam.preview.pdf,cqdam.photoshop.x-creative-json,cqdam.machine.metadata.features.json,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cq5dam.zoom.2048.2048.jpeg]"
+        dam:processingRequestedDate="{Date}2022-11-23T20:20:26.075Z"
+        dam:runPostProcess="{Boolean}true"
+        dam:scene7RequestID="7953d663-7968-4e38-9bb8-cf2be0640713"
+        jcr:lastModified="{Date}2024-04-26T16:26:18.813Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Feature Article"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-04-26T16:26:18.813Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                asset="/content/dam/wknd-headless/assets/AdobeStock_238607111.jpeg"
+                asset_x0040_LastModified="{Date}2022-11-23T19:54:15.355Z"
+                callToAction_x0040_LastModified="{Date}2022-11-23T19:53:04.557Z"
+                description="&lt;p>The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2022-11-23T20:20:25.921Z"
+                link_x0040_LastModified="{Date}2022-11-23T19:53:04.557Z"
+                placeholder_x0040_LastModified="{Date}2022-11-23T19:53:04.557Z"
+                preTitle="Featured Article"
+                preTitle_x0040_LastModified="{Date}2022-11-23T20:20:25.920Z"
+                style="featured"
+                style_x0040_LastModified="{Date}2023-08-09T22:25:40.376Z"
+                title="Camping in Western Australia"
+                title_x0040_LastModified="{Date}2022-11-23T20:20:25.919Z"/>
+        </data>
+        <metadata
+            cq:tags="[wknd-headless:location/magazine]"
+            dam:scene7FileStatus="NotSupported"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

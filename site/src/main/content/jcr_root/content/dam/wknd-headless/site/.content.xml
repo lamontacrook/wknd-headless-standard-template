@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:Folder">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-04-06T18:26:06.172Z"
+        cq:lastReplicated_publish="{Date}2023-04-06T18:26:06.172Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        dam:noThumbnail="{Boolean}true"
+        jcr:created="{Date}2022-10-19T14:54:17.326Z"
+        jcr:createdBy="lamont@adobe.com"
+        jcr:lastModified="{Date}2024-04-25T03:00:38.934Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Site"
+        s7-sync-mode="inherit"
+        sourcing="false">
+        <policies jcr:primaryType="nt:unstructured">
+            <cfm
+                jcr:primaryType="nt:unstructured"
+                policy-cfm-allowedModelsByPaths="[/conf/aem-demo-assets/settings/dam/cfm/models/screen,/conf/aem-demo-assets/settings/dam/cfm/models/image-list,/conf/aem-demo-assets/settings/dam/cfm/models/teaser,/conf/aem-demo-assets/settings/dam/cfm/models/header,/conf/aem-demo-assets/settings/dam/cfm/models/configuration,/conf/aem-demo-assets/settings/dam/cfm/models/experience-fragment,/conf/aem-demo-assets/settings/dam/cfm/models/magazine-article]"/>
+        </policies>
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>
