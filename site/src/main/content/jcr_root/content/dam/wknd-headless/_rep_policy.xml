@@ -33,4 +33,24 @@
         jcr:primaryType="rep:GrantACE"
         rep:principalName="mac-default-assets2-owner"
         rep:privileges="{Name}[jcr:removeChildNodes]"/>
+    <allow7
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="mac-default-wkndheadless-owner"
+        rep:privileges="{Name}[jcr:read,jcr:versionManagement,jcr:modifyAccessControl,jcr:readAccessControl,rep:write,crx:replicate,jcr:lockManagement]"/>
+    <allow8
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="mac-default-wkndheadless-editor"
+        rep:privileges="{Name}[jcr:nodeTypeManagement,jcr:read,jcr:versionManagement,jcr:readAccessControl,jcr:addChildNodes,crx:replicate,jcr:modifyProperties,jcr:lockManagement,jcr:removeChildNodes]"/>
+    <allow9
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="mac-default-wkndheadless-editor"
+        rep:privileges="{Name}[jcr:removeNode]">
+        <rep:restrictions
+            jcr:primaryType="rep:Restrictions"
+            rep:glob="/*"/>
+    </allow9>
+    <allow10
+        jcr:primaryType="rep:GrantACE"
+        rep:principalName="mac-default-wkndheadless"
+        rep:privileges="{Name}[jcr:read]"/>
 </jcr:root>

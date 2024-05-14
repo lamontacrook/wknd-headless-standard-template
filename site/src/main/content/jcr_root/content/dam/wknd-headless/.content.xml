@@ -3,6 +3,7 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="sling:Folder">
     <jcr:content
+        cq:conf="/conf/wknd-headless"
         cq:lastReplicated="{Date}2023-04-06T18:25:58.152Z"
         cq:lastReplicated_publish="{Date}2023-04-06T18:25:58.152Z"
         cq:lastReplicated_scene7="{Date}2022-11-23T20:36:43.913Z"
@@ -14,7 +15,7 @@
         cq:lastReplicationAction_scene7="Activate"
         jcr:created="{Date}2022-10-19T14:44:47.288Z"
         jcr:createdBy="lamont@adobe.com"
-        jcr:lastModified="{Date}2022-11-06T15:24:25.911Z"
+        jcr:lastModified="{Date}2024-05-13T18:23:50.415Z"
         jcr:lastModifiedBy="lamont@adobe.com"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="nt:unstructured"

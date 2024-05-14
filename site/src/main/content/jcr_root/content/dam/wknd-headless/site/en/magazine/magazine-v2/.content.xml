@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="216f63d9-c884-4766-bce8-ba30dc8adb35">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="magazine-v2"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine"
+        jcr:lastModified="{Date}2024-05-12T16:41:50.684Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Magazine"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-05-12T15:24:44.999Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                block="[/content/dam/wknd-headless/site/en/shared/featured-article-v2,/content/dam/wknd-headless/site/en/shared/recent-articles-v2]"
+                block_x0040_LastModified="{Date}2024-05-12T16:41:50.684Z"
+                block_x0040_LastModifiedBy="lamont@adobe.com"
+                header="/content/dam/wknd-headless/site/en/magazine/components/header"
+                header_x0040_LastModified="{Date}2024-05-12T16:39:18.261Z"
+                header_x0040_LastModifiedBy="lamont@adobe.com"
+                positionInNavigation="pos1"
+                positionInNavigation_x0040_LastModified="{Date}2024-05-12T15:24:44.882Z"
+                positionInNavigation_x0040_LastModifiedBy="lamont@adobe.com"
+                screenTitle="Magazine"
+                screenTitle_x0040_LastModified="{Date}2024-05-12T15:24:44.879Z"
+                screenTitle_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="01fde237-807a-4f06-85d0-6c62482c1b9f"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_positionInNavigation="pos1"
+                string_x0040_screenTitle="Magazine"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

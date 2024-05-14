@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="6e05b8e6-6a77-48eb-82cb-d5c5be6d4e1d">
+    jcr:uuid="a4c8ab62-552f-47c0-b221-377564ec97f9">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -19,21 +19,21 @@
         dam:processingRequestedDate="{Date}2023-01-03T22:04:57.833Z"
         dam:runPostProcess="{Boolean}true"
         dam:scene7RequestID="05121685-5b30-43e2-bfb3-0d36b5f57338"
-        jcr:lastModified="{Date}2024-04-25T14:02:44.992Z"
+        jcr:lastModified="{Date}2024-05-14T00:26:22.492Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Western Australia"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2023-01-03T22:04:57.820Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                block="[/content/dam/wknd-headless/site/en/magazine/western-australia/article,/content/dam/wknd-headless/site/en/magazine/western-australia/recent-articles]"
-                block_x0040_LastModified="{Date}2024-04-25T14:02:44.992Z"
+                block="[/content/dam/wknd-headless/site/en/magazine/western-australia/article,/content/dam/wknd-headless/site/en/shared/recent-articles-v2]"
+                block_x0040_LastModified="{Date}2024-05-14T00:26:22.492Z"
                 block_x0040_LastModifiedBy="lamont@adobe.com"
                 header="/content/dam/wknd-headless/site/en/magazine/western-australia/header"
                 header_x0040_LastModified="{Date}2022-11-23T19:32:46.202Z"
@@ -42,7 +42,10 @@
                 screenHeader="/content/dam/wknd-headless/site/en/magazine/western-australia/western-australia-header"
                 screenHeader_x0040_LastModified="{Date}2022-11-17T03:09:55.116Z"
                 screenName="Western Australia"
-                screenName_x0040_LastModified="{Date}2022-11-16T19:18:48.382Z"/>
+                screenName_x0040_LastModified="{Date}2022-11-16T19:18:48.382Z"
+                screenTitle="Western Australia"
+                screenTitle_x0040_LastModified="{Date}2024-05-14T00:14:16.493Z"
+                screenTitle_x0040_LastModifiedBy="lamont@adobe.com"/>
         </data>
         <metadata
             dam:scene7FileStatus="NotSupported"

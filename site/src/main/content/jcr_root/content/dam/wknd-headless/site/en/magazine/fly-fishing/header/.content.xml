@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="95278472-826a-477c-a6c4-148551f2e8c8">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="header"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/fly-fishing"
+        jcr:description="\0"
+        jcr:lastModified="{Date}2024-05-14T00:31:42.856Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Header"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                banner="/content/dam/aem-demo-assets/en/magazine/fly-fishing-amazon/amazon-river-01.jpg"
+                banner_x0040_LastModified="{Date}2024-05-14T00:31:42.856Z"
+                banner_x0040_LastModifiedBy="lamont@adobe.com"
+                navigationColor="light-nav"
+                navigationColor_x0040_LastModified="{Date}2024-05-14T00:31:17.571Z"
+                navigationColor_x0040_LastModifiedBy="lamont@adobe.com"
+                placeholder_x0040_LastModified="{Date}2024-05-14T00:31:10.996Z"
+                teaser_x0040_LastModified="{Date}2024-05-14T00:31:10.996Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="f7d53fad-f30b-42aa-9723-72d174a5c33a"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/header-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_navigationColor="light-nav"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-    jcr:mixinTypes="[rep:AccessControllable]"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:graphqlClient="endpoint-2"
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2024-05-13T18:31:08.949Z"
+        cq:lastModifiedBy="lamont@adobe.com"
+        cq:lastReplicated="{Date}2024-05-14T01:24:21.569Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:24:21.569Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
         cq:template="/libs/cif/shell/components/configuration/page/template"
+        jcr:language="en_us"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Commerce"
+        jcr:title="WKND Headless"
         sling:configPropertyInherit="true"
-        sling:resourceType="cif/shell/components/configuration/page"/>
-    <rep:policy/>
+        sling:resourceType="cif/shell/components/configuration/page"
+        magentoGraphqlEndpoint="/api/graphql/endpoint-2"
+        magentoRootCategoryId="MTAy"
+        magentoStore="wknd"/>
 </jcr:root>

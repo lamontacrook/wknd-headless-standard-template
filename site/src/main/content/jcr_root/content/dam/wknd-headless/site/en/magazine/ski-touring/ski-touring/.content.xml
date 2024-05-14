@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="1c25f619-9dea-4e13-b8bc-680093a16e53">
+    jcr:uuid="706d38b0-c822-4bdd-9ed3-cc89cfe02547">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -19,21 +19,21 @@
         dam:processingRequestedDate="{Date}2023-01-03T22:06:43.964Z"
         dam:runPostProcess="{Boolean}true"
         dam:scene7RequestID="1bd325f6-d79f-476b-883f-1aa08ed785c3"
-        jcr:lastModified="{Date}2024-04-25T14:01:52.977Z"
+        jcr:lastModified="{Date}2024-05-14T00:17:59.884Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Ski Touring"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2023-01-03T22:06:43.931Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                block="[/content/dam/wknd-headless/site/en/magazine/ski-touring/article,/content/dam/wknd-headless/site/en/magazine/ski-touring/related-articles]"
-                block_x0040_LastModified="{Date}2024-04-25T14:01:52.977Z"
+                block="[/content/dam/wknd-headless/site/en/magazine/ski-touring/article,/content/dam/wknd-headless/site/en/shared/recent-articles-v2]"
+                block_x0040_LastModified="{Date}2024-05-14T00:17:59.884Z"
                 block_x0040_LastModifiedBy="lamont@adobe.com"
                 blockNew="[/content/dam/wknd-headless/site/en/magazine/ski-touring/article]"
                 blockNew_x0040_LastModified="{Date}2024-04-25T13:54:36.733Z"
@@ -45,7 +45,10 @@
                 screenHeader="/content/dam/wknd-headless/site/en/magazine/ski-touring/ski-touring-header"
                 screenHeader_x0040_LastModified="{Date}2022-11-17T03:06:08.688Z"
                 screenName="Ski Touring"
-                screenName_x0040_LastModified="{Date}2022-11-16T19:21:29.918Z"/>
+                screenName_x0040_LastModified="{Date}2022-11-16T19:21:29.918Z"
+                screenTitle="Ski Touring"
+                screenTitle_x0040_LastModified="{Date}2024-05-14T00:13:57.609Z"
+                screenTitle_x0040_LastModifiedBy="lamont@adobe.com"/>
         </data>
         <metadata
             dam:scene7FileStatus="NotSupported"

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="5780de2f-cb75-4db6-9e76-2deaf1fa0703">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="alaskan-adventures"
+        cq:parentPath="/content/dam/wknd-headless/site/en/magazine/alaskan-adventures"
+        jcr:description="\0"
+        jcr:lastModified="{Date}2024-05-14T00:40:33.155Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Alaskan Adventures"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                block="[/content/dam/wknd-headless/site/en/magazine/alaskan-adventures/article,/content/dam/wknd-headless/site/en/shared/recent-articles-v2]"
+                block_x0040_LastModified="{Date}2024-05-14T00:40:33.155Z"
+                block_x0040_LastModifiedBy="lamont@adobe.com"
+                header="/content/dam/wknd-headless/site/en/magazine/alaskan-adventures/header"
+                header_x0040_LastModified="{Date}2024-05-14T00:36:30.733Z"
+                header_x0040_LastModifiedBy="lamont@adobe.com"
+                positionInNavigation="dni"
+                positionInNavigation_x0040_LastModified="{Date}2024-05-14T00:37:13.760Z"
+                positionInNavigation_x0040_LastModifiedBy="lamont@adobe.com"
+                screenTitle="Alaskan Adventures"
+                screenTitle_x0040_LastModified="{Date}2024-05-14T00:36:16.431Z"
+                screenTitle_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="6ed1ac77-7206-48b1-8cdf-1474feb6bc2b"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_positionInNavigation="dni"
+                string_x0040_screenTitle="Alaskan Adventures"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -3,8 +3,9 @@
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="sling:Folder">
     <jcr:content
-        cq:lastReplicated="{Date}2023-04-06T18:26:06.172Z"
-        cq:lastReplicated_publish="{Date}2023-04-06T18:26:06.172Z"
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:24:21.450Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:24:21.450Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -12,9 +13,9 @@
         dam:noThumbnail="{Boolean}true"
         jcr:created="{Date}2022-10-19T14:54:17.326Z"
         jcr:createdBy="lamont@adobe.com"
-        jcr:lastModified="{Date}2024-04-25T03:00:38.934Z"
+        jcr:lastModified="{Date}2024-05-14T01:23:31.872Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="nt:unstructured"
         jcr:title="Site"
         s7-sync-mode="inherit"
@@ -22,7 +23,7 @@
         <policies jcr:primaryType="nt:unstructured">
             <cfm
                 jcr:primaryType="nt:unstructured"
-                policy-cfm-allowedModelsByPaths="[/conf/aem-demo-assets/settings/dam/cfm/models/screen,/conf/aem-demo-assets/settings/dam/cfm/models/image-list,/conf/aem-demo-assets/settings/dam/cfm/models/teaser,/conf/aem-demo-assets/settings/dam/cfm/models/header,/conf/aem-demo-assets/settings/dam/cfm/models/configuration,/conf/aem-demo-assets/settings/dam/cfm/models/experience-fragment,/conf/aem-demo-assets/settings/dam/cfm/models/magazine-article]"/>
+                policy-cfm-allowedModelsByPaths="[/conf/aem-demo-assets/settings/dam/cfm/models/magazine-article,/conf/aem-demo-assets/settings/dam/cfm/models/image-list-v2,/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2,/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2,/conf/aem-demo-assets/settings/dam/cfm/models/header-v2,/conf/aem-demo-assets/settings/dam/cfm/models/configuration-v2,/conf/aem-demo-assets/settings/dam/cfm/models/products]"/>
         </policies>
         <folderThumbnail/>
     </jcr:content>

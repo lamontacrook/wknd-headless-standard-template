@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="f4f7a64a-9331-4544-828b-893b70ff317a">
+    jcr:uuid="eec3d497-9575-497e-ad05-897e107618ff">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -19,21 +19,22 @@
         dam:processingRequestedDate="{Date}2023-01-03T22:03:03.205Z"
         dam:runPostProcess="{Boolean}true"
         dam:scene7RequestID="181866ca-8c00-46a3-80e9-695dd490cb15"
-        jcr:lastModified="{Date}2023-01-03T22:03:03.185Z"
+        jcr:lastModified="{Date}2024-05-14T00:27:56.366Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Header"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2023-01-03T22:03:03.185Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                banner="/content/dam/aem-demo-assets/en/magazine/western-australia/Adobe_WAAdobe_WA_B6A7083.JPG"
-                banner_x0040_LastModified="{Date}2023-01-03T22:03:03.023Z"
+                banner="/content/dam/aem-demo-assets/en/magazine/western-australia/adobe-waadobe-wa-b6a7083.jpg"
+                banner_x0040_LastModified="{Date}2024-05-14T00:27:56.366Z"
+                banner_x0040_LastModifiedBy="lamont@adobe.com"
                 navigationColor="light-nav"
                 navigationColor_x0040_LastModified="{Date}2023-01-03T22:03:03.022Z"
                 placeholder_x0040_LastModified="{Date}2022-11-23T19:32:24.789Z"

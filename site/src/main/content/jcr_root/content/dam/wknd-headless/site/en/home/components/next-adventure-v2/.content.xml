@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8d70fff4-a29a-4141-b091-d6398c033eeb">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="next-adventure-v2"
+        cq:parentPath="/content/dam/wknd-headless/site/en"
+        jcr:description="\0"
+        jcr:lastModified="{Date}2024-05-11T00:35:26.716Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Next Adventure"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-05-11T00:35:26.716Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                asset="/content/dam/aem-demo-assets/en/adventures/climbing-new-zealand/adobestock-166394648.jpeg"
+                asset_x0040_LastModified="{Date}2024-05-11T00:35:26.568Z"
+                asset_x0040_LastModifiedBy="lamont@adobe.com"
+                callToAction="Book Now"
+                callToAction_x0040_LastModified="{Date}2024-05-11T00:35:26.572Z"
+                callToAction_x0040_LastModifiedBy="lamont@adobe.com"
+                description="&lt;p>Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-05-11T00:35:26.570Z"
+                description_x0040_LastModifiedBy="lamont@adobe.com"
+                link="/content/dam/aem-demo-assets/en/adventures/climbing-new-zealand/climbing-new-zealand"
+                link_x0040_LastModified="{Date}2024-05-11T00:35:26.573Z"
+                link_x0040_LastModifiedBy="lamont@adobe.com"
+                placeholder_x0040_LastModified="{Date}2024-05-11T00:33:37.301Z"
+                preTitle="A memory you will cherish forever."
+                preTitle_x0040_LastModified="{Date}2024-05-11T00:35:26.570Z"
+                preTitle_x0040_LastModifiedBy="lamont@adobe.com"
+                style="hero"
+                style_x0040_LastModified="{Date}2024-05-11T00:35:26.571Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"
+                title="Climbing New Zealand"
+                title_x0040_LastModified="{Date}2024-05-11T00:35:26.569Z"
+                title_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="83a56caa-8526-4656-8074-7c7ae9fe362e"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_callToAction="Book Now"
+                string_x0040_description="&lt;p>Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary.&lt;/p>&#xa;"
+                string_x0040_preTitle="A memory you will cherish forever."
+                string_x0040_style="hero"
+                string_x0040_title="Climbing New Zealand"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

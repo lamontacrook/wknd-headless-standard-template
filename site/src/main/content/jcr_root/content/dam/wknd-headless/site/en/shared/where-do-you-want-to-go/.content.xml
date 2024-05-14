@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="69d858ed-9824-4774-b33e-162032063c05">
+    jcr:uuid="acb61678-866f-40f5-aa46-c03d5941951a">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicated_scene7="{Date}2024-04-25T18:40:44.563Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
@@ -24,7 +24,7 @@
         dam:scene7RequestID="9719fa21-77b9-4ac9-8965-eb9a6a3b520f"
         jcr:lastModified="{Date}2024-04-26T17:47:09.719Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Where do you want to go?"
         contentFragment="{Boolean}true"
@@ -46,7 +46,7 @@
                 style_x0040_LastModifiedBy="lamont@adobe.com"/>
         </data>
         <metadata
-            cq:tags="[wknd-headless:location/home,wknd-headless:location/magazine]"
+            cq:tags="[]"
             dam:scene7FileStatus="NotSupported"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="626a1d1a-3f94-40d7-81c0-8583890e9497">
+    jcr:uuid="1f7cc9d3-1ca8-4427-8839-6508a9ab0c67">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicated_scene7="{Date}2024-04-25T18:40:45.205Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
@@ -24,7 +24,7 @@
         dam:scene7RequestID="dfd730ec-30a2-4f76-9c31-dc30271637d3"
         jcr:lastModified="{Date}2024-04-25T18:34:13.425Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Recent Articles"
         contentFragment="{Boolean}true"

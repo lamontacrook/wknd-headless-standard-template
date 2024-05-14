@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="835eb7ff-2b38-48a0-8e62-7a20f760af06">
+    jcr:uuid="35d3db0c-db15-4f5c-86db-e9dcc8d2f853">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-26T22:32:41.979Z"
-        cq:lastReplicated_publish="{Date}2024-04-26T22:32:41.979Z"
+        cq:lastReplicated="{Date}2024-05-14T01:24:21.569Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:24:21.569Z"
         cq:lastReplicated_scene7="{Date}2023-09-24T21:50:28.275Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
@@ -30,7 +30,7 @@
         dam:scene7RequestID="/var/workflow/instances/server511/2023-09-20/dynamic-media-reupload_1"
         jcr:lastModified="{Date}2023-09-23T19:59:25.299Z"
         jcr:lastModifiedBy="fmdita-serviceuser"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         dxmlLastCreatedVersion="1.2"
         fmPostProcessedAt="2022-12-02T19:49:20.590Z|835eb7ff-2b38-48a0-8e62-7a20f760af06|2022-12-02T19:49:20.275Z|13|0"

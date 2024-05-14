@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d21db8d3-7fb0-427f-a843-2bd29dd20dbc">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="recent-articles-v2"
+        cq:parentPath="/content/dam/wknd-headless/site/en/shared"
+        jcr:description="\0"
+        jcr:lastModified="{Date}2024-05-14T00:41:53.431Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Recent Articles"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-05-09T11:50:13.427Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                headline="&lt;h4>Recent Articles&lt;/h4>&#xa;"
+                headline_x0040_ContentType="text/html"
+                headline_x0040_LastModified="{Date}2024-05-09T11:50:13.221Z"
+                headline_x0040_LastModifiedBy="lamont@adobe.com"
+                listItems="[/content/dam/wknd-headless/site/en/magazine/alaskan-adventures/article,/content/dam/wknd-headless/site/en/magazine/fly-fishing/article,/content/dam/wknd-headless/site/en/magazine/san-diego-surf/article,/content/dam/wknd-headless/site/en/magazine/ski-touring/article,/content/dam/wknd-headless/site/en/magazine/western-australia/article,/content/dam/wknd-headless/site/en/magazine/arctic-surfing/article]"
+                listItems_x0040_LastModified="{Date}2024-05-14T00:41:53.431Z"
+                listItems_x0040_LastModifiedBy="lamont@adobe.com"
+                style="slider-list"
+                style_x0040_LastModified="{Date}2024-05-09T11:49:13.371Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="cdebde18-81be-4cd0-bc02-1bfe47725b88"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_headline="&lt;h4>Recent Articles&lt;/h4>&#xa;"
+                string_x0040_style="slider-list"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

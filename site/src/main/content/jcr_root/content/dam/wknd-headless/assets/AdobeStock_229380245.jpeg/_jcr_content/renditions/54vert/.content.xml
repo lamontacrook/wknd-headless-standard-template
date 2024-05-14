@@ -9,7 +9,7 @@
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
-        dam:scene7ID="sa|1377788205"
+        dam:scene7ID="sa|1863352585"
         jcr:lastModified="{Date}2023-01-05T17:24:16.195Z"
         jcr:lastModifiedBy="dam-writer-service"
         jcr:mixinTypes="[cq:ReplicationStatus]"

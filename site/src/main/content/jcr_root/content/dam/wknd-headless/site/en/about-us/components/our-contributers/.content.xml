@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="3184dcd3-cd43-4b91-b20c-72572d903b37">
+    jcr:uuid="93fd1f4e-dfbb-46df-8a5c-367766094f60">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -20,21 +20,28 @@
         dam:processingRequestedDate="{Date}2022-12-01T05:35:09.678Z"
         dam:runPostProcess="{Boolean}true"
         dam:scene7RequestID="0fd47415-460a-4ffb-b313-ccbc616f1b1c"
-        jcr:lastModified="{Date}2022-12-01T05:35:09.664Z"
+        jcr:lastModified="{Date}2024-05-12T16:57:04.593Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Our Contributers"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2022-12-01T05:35:09.664Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
+                headline="&lt;h4>Our Contributers&lt;/h4>"
+                headline_x0040_ContentType="text/html"
+                headline_x0040_LastModified="{Date}2024-05-12T16:57:04.593Z"
+                headline_x0040_LastModifiedBy="lamont@adobe.com"
                 imageListItems="[/content/experience-fragments/wknd-site/language-masters/en/contributors/ian-provo/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/jacob-wester/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/jake-hammer/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/justin-barr/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/kumar-selveraj/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/sofia-sjoeberg/master,/content/experience-fragments/wknd-site/language-masters/en/contributors/stacey-roswells/master]"
                 imageListItems_x0040_LastModified="{Date}2022-12-01T05:35:09.527Z"
+                listItems="[/content/dam/aem-demo-assets/en/contributors/ian-provo,/content/dam/aem-demo-assets/en/contributors/sofia-sj-berg,/content/dam/aem-demo-assets/en/contributors/justin-barr,/content/dam/aem-demo-assets/en/contributors/jake-hammer,/content/dam/aem-demo-assets/en/contributors/jacob-wester,/content/dam/aem-demo-assets/en/contributors/stacey-roswells,/content/dam/aem-demo-assets/en/contributors/kumar-selveraj]"
+                listItems_x0040_LastModified="{Date}2024-05-12T16:56:28.675Z"
+                listItems_x0040_LastModifiedBy="lamont@adobe.com"
                 style="image-grid"
                 style_x0040_LastModified="{Date}2022-12-01T05:35:09.528Z"/>
         </data>

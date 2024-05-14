@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="12cccf21-ec63-4c98-adf8-863cf259ba65">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="where-do-you-want-to-go-"
+        cq:parentPath="/content/dam/wknd-headless/site/en/shared"
+        jcr:lastModified="{Date}2024-05-09T11:41:46.038Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Where do you want to go?"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-05-09T11:40:31.793Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                headline="&lt;h4>Where to you want to go?&lt;/h4>"
+                headline_x0040_ContentType="text/html"
+                headline_x0040_LastModified="{Date}2024-05-09T11:41:46.038Z"
+                headline_x0040_LastModifiedBy="lamont@adobe.com"
+                listItems="[/content/dam/aem-demo-assets/en/adventures/beervana-portland/beervana-in-portland,/content/dam/aem-demo-assets/en/adventures/cycling-southern-utah/cycling-southern-utah,/content/dam/aem-demo-assets/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc,/content/dam/aem-demo-assets/en/adventures/tahoe-skiing/tahoe-skiing]"
+                listItems_x0040_LastModified="{Date}2024-05-09T11:40:31.565Z"
+                listItems_x0040_LastModifiedBy="lamont@adobe.com"
+                style="slider-list"
+                style_x0040_LastModified="{Date}2024-05-09T11:40:31.566Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="62818fc0-9fa8-4679-834d-07fa34d6cd43"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_headline="&lt;h4>Where to you want to go?&lt;/h4>"
+                string_x0040_style="slider-list"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

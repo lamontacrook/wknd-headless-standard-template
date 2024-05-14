@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="7eab8e76-780a-4b4a-96ca-d5443b347918">
+    jcr:uuid="e8ea4dc2-5261-4687-8300-0996820a04e0">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -21,13 +21,13 @@
         dam:scene7RequestID="/var/workflow/instances/server600/2022-11-30/dynamic-media-reupload_1"
         jcr:lastModified="{Date}2022-12-13T19:55:24.853Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Header"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2022-12-13T19:55:24.853Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"

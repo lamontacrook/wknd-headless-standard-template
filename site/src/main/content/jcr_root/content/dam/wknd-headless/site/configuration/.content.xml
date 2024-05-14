@@ -2,9 +2,10 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     jcr:primaryType="sling:Folder">
     <jcr:content
-        cq:lastReplicated="{Date}2023-04-06T18:26:06.172Z"
-        cq:lastReplicated_publish="{Date}2023-04-06T18:26:06.172Z"
-        cq:lastReplicated_scene7="{Date}2023-04-06T18:16:56.654Z"
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:39:57.380Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:39:57.380Z"
+        cq:lastReplicated_scene7="{Date}2024-05-14T01:39:44.066Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicatedBy_scene7="lamont@adobe.com"
@@ -13,8 +14,16 @@
         cq:lastReplicationAction_scene7="Activate"
         jcr:created="{Date}2022-10-25T16:34:48.867Z"
         jcr:createdBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:lastModified="{Date}2024-05-11T21:57:55.324Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="nt:unstructured"
         jcr:title="Configuration"
-        sourcing="false"/>
+        sourcing="false">
+        <policies jcr:primaryType="nt:unstructured">
+            <cfm
+                jcr:primaryType="nt:unstructured"
+                policy-cfm-allowedModelsByPaths="[/conf/aem-demo-assets/settings/dam/cfm/models/configuration,/conf/aem-demo-assets/settings/dam/cfm/models/configuration-v2]"/>
+        </policies>
+    </jcr:content>
 </jcr:root>

@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="1ceee5a5-557f-40e1-be3c-21adb72aa3b9">
+    jcr:uuid="b587cacc-3f42-49dd-b1e9-ca20ce7c326a">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -19,25 +19,29 @@
         dam:processingRequestedDate="{Date}2022-11-23T23:26:15.950Z"
         dam:runPostProcess="{Boolean}true"
         dam:scene7RequestID="daa235b2-b1d4-4db7-b132-f300726268ad"
-        jcr:lastModified="{Date}2024-04-25T20:13:55.684Z"
+        jcr:lastModified="{Date}2024-05-14T00:46:54.287Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Adventure Grid"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2022-11-23T23:26:15.926Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/image-list-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
                 dropdownField="image-grid"
                 dropdownField_x0040_LastModified="{Date}2022-11-23T20:52:42.990Z"
+                headline="&lt;h4>Find Your Next Adventure&lt;/h4>"
+                headline_x0040_ContentType="text/html"
+                headline_x0040_LastModified="{Date}2024-05-13T19:32:58.192Z"
+                headline_x0040_LastModifiedBy="lamont@adobe.com"
                 imageListItems="[/content/dam/aem-demo-assets/en/adventures/bali-surf-camp/bali-surf-camp,/content/dam/aem-demo-assets/en/adventures/yosemite-backpacking,/content/dam/aem-demo-assets/en/adventures/whistler-mountain-biking/whistler-mountain-biking,/content/dam/aem-demo-assets/en/adventures/west-coast-cycling/west-coast-cycling,/content/dam/aem-demo-assets/en/adventures/tahoe-skiing/tahoe-skiing,/content/dam/aem-demo-assets/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica,/content/dam/aem-demo-assets/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc,/content/dam/aem-demo-assets/en/adventures/riverside-camping-australia/riverside-camping-australia,/content/dam/aem-demo-assets/en/adventures/napa-wine-tasting,/content/dam/aem-demo-assets/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour,/content/dam/aem-demo-assets/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming,/content/dam/aem-demo-assets/en/adventures/cycling-tuscany/cycling-tuscany,/content/dam/aem-demo-assets/en/adventures/cycling-southern-utah/cycling-southern-utah,/content/dam/aem-demo-assets/en/adventures/colorado-rock-climbing/colorado-rock-climbing,/content/dam/aem-demo-assets/en/adventures/climbing-new-zealand/climbing-new-zealand,/content/dam/aem-demo-assets/en/adventures/beervana-portland/beervana-in-portland]"
                 imageListItems_x0040_LastModified="{Date}2022-11-23T23:18:35.940Z"
-                listItems="[/content/dam/aem-demo-assets/en/adventures/bali-surf-camp/bali-surf-camp,/content/dam/aem-demo-assets/en/adventures/bali-surf-camp/bali-surf-camp,/content/dam/aem-demo-assets/en/adventures/climbing-new-zealand/climbing-new-zealand,/content/dam/aem-demo-assets/en/adventures/beervana-portland/beervana-in-portland,/content/dam/aem-demo-assets/en/adventures/napa-wine-tasting/napa-wine-tasting,/content/dam/aem-demo-assets/en/adventures/cycling-southern-utah/cycling-southern-utah,/content/dam/aem-demo-assets/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour,/content/dam/aem-demo-assets/en/adventures/tahoe-skiing/tahoe-skiing,/content/dam/aem-demo-assets/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica,/content/dam/aem-demo-assets/en/adventures/yosemite-backpacking/yosemite-backpacking,/content/dam/aem-demo-assets/en/adventures/whistler-mountain-biking/whistler-mountain-biking,/content/dam/aem-demo-assets/en/adventures/colorado-rock-climbing/colorado-rock-climbing,/content/dam/aem-demo-assets/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc,/content/dam/aem-demo-assets/en/adventures/cycling-tuscany/cycling-tuscany,/content/dam/aem-demo-assets/en/adventures/west-coast-cycling/west-coast-cycling,/content/dam/aem-demo-assets/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming,/content/dam/aem-demo-assets/en/adventures/riverside-camping-australia/riverside-camping-australia]"
-                listItems_x0040_LastModified="{Date}2024-04-25T20:13:55.684Z"
+                listItems="[/content/dam/aem-demo-assets/en/adventures/bali-surf-camp/bali-surf-camp,/content/dam/aem-demo-assets/en/adventures/climbing-new-zealand/climbing-new-zealand,/content/dam/aem-demo-assets/en/adventures/beervana-portland/beervana-in-portland,/content/dam/aem-demo-assets/en/adventures/napa-wine-tasting/napa-wine-tasting,/content/dam/aem-demo-assets/en/adventures/cycling-southern-utah/cycling-southern-utah,/content/dam/aem-demo-assets/en/adventures/gastronomic-marais-tour/gastronomic-marais-tour,/content/dam/aem-demo-assets/en/adventures/tahoe-skiing/tahoe-skiing,/content/dam/aem-demo-assets/en/adventures/surf-camp-in-costa-rica/surf-camp-costa-rica,/content/dam/aem-demo-assets/en/adventures/yosemite-backpacking/yosemite-backpacking,/content/dam/aem-demo-assets/en/adventures/whistler-mountain-biking/whistler-mountain-biking,/content/dam/aem-demo-assets/en/adventures/colorado-rock-climbing/colorado-rock-climbing,/content/dam/aem-demo-assets/en/adventures/ski-touring-mont-blanc/ski-touring-mont-blanc,/content/dam/aem-demo-assets/en/adventures/cycling-tuscany/cycling-tuscany,/content/dam/aem-demo-assets/en/adventures/west-coast-cycling/west-coast-cycling,/content/dam/aem-demo-assets/en/adventures/downhill-skiing-wyoming/downhill-skiing-wyoming,/content/dam/aem-demo-assets/en/adventures/riverside-camping-australia/riverside-camping-australia]"
+                listItems_x0040_LastModified="{Date}2024-05-14T00:46:54.287Z"
                 listItems_x0040_LastModifiedBy="lamont@adobe.com"
                 style="image-grid"
                 style_x0040_LastModified="{Date}2022-11-23T23:26:15.761Z"/>

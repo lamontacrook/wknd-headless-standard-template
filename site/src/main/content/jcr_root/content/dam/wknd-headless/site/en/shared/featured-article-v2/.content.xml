@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ed9e3d9e-4913-4f84-b0fd-02b43ac20646">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="featured-article-v2"
+        cq:parentPath="/content/dam/wknd-headless/site"
+        jcr:description="\0"
+        jcr:lastModified="{Date}2024-05-11T00:12:37.988Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Featured Article"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-05-11T00:12:37.988Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                asset="/content/dam/aem-demo-assets/en/magazine/western-australia/adobestock-156407519.jpeg"
+                asset_x0040_LastModified="{Date}2024-05-11T00:12:37.840Z"
+                asset_x0040_LastModifiedBy="lamont@adobe.com"
+                callToAction="Read Now"
+                callToAction_x0040_LastModified="{Date}2024-05-11T00:12:37.846Z"
+                callToAction_x0040_LastModifiedBy="lamont@adobe.com"
+                description="&lt;p>Salt Lake City coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-05-11T00:12:37.844Z"
+                description_x0040_LastModifiedBy="lamont@adobe.com"
+                link="/content/dam/wknd-headless/site/en/magazine/western-australia/western-australia"
+                link_x0040_LastModified="{Date}2024-05-11T00:12:37.847Z"
+                link_x0040_LastModifiedBy="lamont@adobe.com"
+                placeholder_x0040_LastModified="{Date}2024-05-11T00:09:36.144Z"
+                preTitle="Featured Article"
+                preTitle_x0040_LastModified="{Date}2024-05-11T00:12:37.843Z"
+                preTitle_x0040_LastModifiedBy="lamont@adobe.com"
+                style="featured"
+                style_x0040_LastModified="{Date}2024-05-11T00:12:37.845Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"
+                title="Camping in Western Australia"
+                title_x0040_LastModified="{Date}2024-05-11T00:12:37.842Z"
+                title_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="6f2e9599-38ab-4d0d-bcdf-fc5a017c0bde"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_callToAction="Read Now"
+                string_x0040_description="&lt;p>Salt Lake City coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.&lt;/p>&#xa;"
+                string_x0040_preTitle="Featured Article"
+                string_x0040_style="featured"
+                string_x0040_title="Camping in Western Australia"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3f80e671-de94-45cf-b1a4-a66ecad263d6">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:39:57.380Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:39:57.380Z"
+        cq:lastReplicated_scene7="{Date}2024-05-14T01:29:42.656Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicatedBy_scene7="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:name="configuration-v2"
+        cq:parentPath="/content/dam/wknd-headless/site/configuration"
+        jcr:lastModified="{Date}2024-05-14T01:22:58.635Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Configuration"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-05-14T01:22:58.635Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/configuration-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                adventuresHome="/content/dam/aem-demo-assets/en/adventures"
+                adventuresHome_x0040_LastModified="{Date}2024-05-11T22:13:34.934Z"
+                adventuresHome_x0040_LastModifiedBy="lamont@adobe.com"
+                audienceConfiguration="/content/dam/extension-configurations/extension-config"
+                audienceConfiguration_x0040_LastModified="{Date}2024-05-11T22:13:11.777Z"
+                audienceConfiguration_x0040_LastModifiedBy="lamont@adobe.com"
+                commerceSheet="https://main--cif--jihuang-adobe.hlx.page/products.json?sheet=wknd"
+                commerceSheet_x0040_LastModified="{Date}2024-05-13T21:54:31.467Z"
+                commerceSheet_x0040_LastModifiedBy="lamont@adobe.com"
+                footerExperienceFragment_x0040_LastModified="{Date}2024-05-11T21:58:53.857Z"
+                homePage="/content/dam/wknd-headless/site/en/home/home-v2"
+                homePage_x0040_LastModified="{Date}2024-05-12T10:26:46.125Z"
+                homePage_x0040_LastModifiedBy="lamont@adobe.com"
+                itinerary="/content/dam/wknd-headless/assets/AdobeStock_202306731.jpeg"
+                itinerary_x0040_LastModified="{Date}2024-05-11T22:15:45.850Z"
+                itinerary_x0040_LastModifiedBy="lamont@adobe.com"
+                languages="[en]"
+                languages_x0040_LastModified="{Date}2024-05-14T01:16:00.458Z"
+                languages_x0040_LastModifiedBy="lamont@adobe.com"
+                overview="/content/dam/wknd-headless/assets/AdobeStock_229380245.jpeg"
+                overview_x0040_LastModified="{Date}2024-05-11T22:16:08.580Z"
+                overview_x0040_LastModifiedBy="lamont@adobe.com"
+                siteLogo="/content/dam/aem-demo-assets/en/site/wknd-logo-light.png"
+                siteLogo_x0040_LastModified="{Date}2024-05-11T22:17:26.654Z"
+                siteLogo_x0040_LastModifiedBy="lamont@adobe.com"
+                siteTitle="WKND Headless"
+                siteTitle_x0040_LastModified="{Date}2024-05-12T10:34:14.148Z"
+                siteTitle_x0040_LastModifiedBy="lamont@adobe.com"
+                whatToBring="/content/dam/wknd-headless/assets/AdobeStock_354098718.jpeg"
+                whatToBring_x0040_LastModified="{Date}2024-05-11T22:16:33.547Z"
+                whatToBring_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="6c11200d-fd09-4fce-ac93-d515445ad9fe"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/configuration-v2"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_adventuresHome="/content/dam/aem-demo-assets/en/adventures"
+                string_x0040_commerceSheet="https://main--cif--jihuang-adobe.hlx.page/products.json?sheet=wknd"
+                string_x0040_siteTitle="WKND Headless"
+                stringArray_x0040_languages="[en]"/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

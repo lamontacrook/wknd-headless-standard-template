@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="c0b38ee4-7dde-46e2-9ef4-c5388d3400dd">
+    jcr:uuid="89c4fffe-77a5-4f9f-aeaf-9a1b57dabc34">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-26T22:32:41.979Z"
-        cq:lastReplicated_publish="{Date}2024-04-26T22:32:41.979Z"
+        cq:lastReplicated="{Date}2024-05-14T01:24:21.569Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:24:21.569Z"
         cq:lastReplicated_scene7="{Date}2023-01-25T16:09:39.886Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
@@ -16,50 +16,46 @@
         cq:lastReplicationAction_publish="Activate"
         cq:lastReplicationAction_scene7="Activate"
         dam:assetState="processed"
+        dam:asyncJobId="2024/5/13/23/25/cdef6c56-9d44-48b8-b68c-d929892a742e_63"
         dam:imageServerAsset="{Boolean}true"
         dam:jobId="bd362a71-dbfa-410f-a043-53ef3ec8ccd7"
-        dam:processingId="0c5665ae-d489-4159-acee-f2ae0255b6c1"
-        dam:processingRenditions="[cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.preview.pdf,cqdam.text.txt,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.48.48.png,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.crops.json,cqdam.machine.metadata.swatches.json,cqdam.machine.metadata.features.json]"
-        dam:processingRequestedDate="{Date}2023-01-25T16:03:14.388Z"
-        dam:runPostProcess="{Boolean}true"
-        dam:s7damType="Asset"
-        dam:scene7BatchId="KTWr6YUBAAAtwqJQnvkLujVqUrOdsCrG"
-        dam:scene7RequestID="0c5665ae-d489-4159-acee-f2ae0255b6c1"
-        jcr:lastModified="{Date}2023-01-25T16:05:43.284Z"
+        dam:processingId="3dbf3434-4efc-4f94-92fe-fdec1d9b162e"
+        dam:processingRenditions="[cqdam.metadata.xml,cqdam.text.txt,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.crops.json,cq5dam.preview.pdf,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.swatches.json,cqdam.machine.metadata.features.json,cq5dam.thumbnail.48.48.png,cq5dam.thumbnail.319.319.png,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.colors.json]"
+        dam:processingRequestedDate="{Date}2024-05-13T23:26:51.204Z"
+        dam:runDMProcess="{Boolean}false"
+        dam:runPostProcess="{Boolean}false"
+        dam:s7damType="VideoAVS"
+        dam:scene7BatchId="VGRFdI8BAAAYz1ideAmgZnWmsdNcklWA"
+        dam:scene7RequestID="7953b99c-b29d-4056-b59a-92399449f654"
+        jcr:lastModified="{Date}2024-05-13T23:26:51.243Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
+        dm-sc-sync-pending="{Boolean}true"
+        dm-swatch-sync-pending="{Boolean}true"
         dxmlLastCreatedVersion="1.0"
         fmPostProcessedAt="2023-01-25T16:03:14.244Z|c0b38ee4-7dde-46e2-9ef4-c5388d3400dd|2023-01-25T16:03:14.242Z|13|0"
         fmUuid="GUID-7f8eb463-8cf7-472d-b7a8-62babbe423d5"
         status="Finished">
-        <dam:failedRenditions jcr:primaryType="nt:unstructured">
-            <cq5dam.preview.pdf
-                jcr:primaryType="nt:unstructured"
-                message="Format pdf is not supported for mp4 files"
-                reason="RenditionFormatUnsupported"/>
-            <cqdam.text.txt
-                jcr:primaryType="nt:unstructured"
-                message="Text extraction (fmt=txt) is not supported for mp4 files"
-                reason="RenditionFormatUnsupported"/>
-        </dam:failedRenditions>
         <metadata
-            dam:extracted="{Date}2023-01-25T16:03:32.073Z"
+            dam:averageVideoBitRate="{Long}4884338"
+            dam:extracted="{Date}2024-05-13T23:24:28.922Z"
             dam:scene7APIServer="https://s7sps1apissl.scene7.com"
             dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
-            dam:scene7CompanyID="c|230999"
+            dam:scene7CompanyID="c|210268"
             dam:scene7Domain="https://smartimaging.scene7.com/"
-            dam:scene7File="DynamicmediaNA1/AdobeStock_169884895-1"
+            dam:scene7File="DynamicMediaNA/AdobeStock_169884895-20"
+            dam:scene7FileAvs="DynamicMediaNA/AdobeStock_169884895-25-AVS"
             dam:scene7FileStatus="PublishComplete"
-            dam:scene7Folder="DynamicmediaNA1/gql-demo-template/assets/"
+            dam:scene7Folder="DynamicMediaNA/wknd-headless/assets/"
             dam:scene7Height="1080"
-            dam:scene7ID="a|1393115152"
-            dam:scene7LastModified="{Date}2023-01-25T16:05:32.384Z"
-            dam:scene7Name="AdobeStock_169884895-1"
+            dam:scene7ID="a|1637416156"
+            dam:scene7LastModified="{Date}2024-05-13T23:26:33.962Z"
+            dam:scene7Name="AdobeStock_169884895-20"
             dam:scene7PublishedBy="lamont@adobe.com"
-            dam:scene7PublishTimeStamp="{Date}2023-04-06T18:26:02.380Z"
-            dam:scene7Type="Video"
-            dam:scene7UploadTimeStamp="{Date}2023-01-25T16:05:32.495Z"
+            dam:scene7PublishTimeStamp="{Date}2024-05-14T01:24:29.385Z"
+            dam:scene7Type="MasterVideo"
+            dam:scene7UploadTimeStamp="{Date}2024-05-13T23:26:33.969Z"
             dam:scene7Width="1920"
             dam:sha1="bbeb3c473984e68b86451aa8b5063a401b300401"
             dam:size="{Long}18136871"
@@ -69,6 +65,7 @@
             tiff:Orientation="{Long}1"
             xmp:CreateDate="{Date}2023-01-25T15:58:48.000Z"
             xmpDM:audioChannelType="Stereo"
+            xmpDM:audioCompressor="mp4a"
             xmpDM:audioSampleRate="{Long}44100"
             xmpDM:audioSampleType="16Int"
             xmpDM:startTimeSampleSize="{Long}1"
@@ -109,21 +106,6 @@
                 xmpDM:scale="1/90000"
                 xmpDM:value="{Long}2664490"
                 xmpNodeType="xmpStruct"/>
-            <xmpMM:Ingredients
-                jcr:primaryType="nt:unstructured"
-                xmpArraySize="{Long}1"
-                xmpArrayType="rdf:Bag"
-                xmpNodeType="xmpArray">
-                <_x0031_
-                    jcr:primaryType="nt:unstructured"
-                    stRef:documentID="c4e62f32-d40e-b528-1c73-49920000005b"
-                    stRef:filePath="AdobeStock_169884895.mov"
-                    stRef:fromPart="time:81894758400000f254016000000d7508712960000f254016000000"
-                    stRef:instanceID="bbdb1990-0780-49b9-491f-1b9500000088"
-                    stRef:maskMarkers="None"
-                    stRef:toPart="time:0d7508712960000f254016000000"
-                    xmpNodeType="xmpStruct"/>
-            </xmpMM:Ingredients>
             <xmpMM:DerivedFrom
                 jcr:primaryType="nt:unstructured"
                 stRef:documentID="xmp.did:b133b143-38a4-43a8-9eb9-705b3199e443"
@@ -141,87 +123,102 @@
                 creatorAtom:posixProjectPath="/Users/lamont/Library/CloudStorage/OneDrive-Adobe/Documents/pure-headless/downres.prproj"
                 jcr:primaryType="nt:unstructured"
                 xmpNodeType="xmpStruct"/>
+            <xmpMM:Ingredients
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Bag"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stRef:documentID="c4e62f32-d40e-b528-1c73-49920000005b"
+                    stRef:filePath="AdobeStock_169884895.mov"
+                    stRef:fromPart="time:81894758400000f254016000000d7508712960000f254016000000"
+                    stRef:instanceID="bbdb1990-0780-49b9-491f-1b9500000088"
+                    stRef:maskMarkers="None"
+                    stRef:toPart="time:0d7508712960000f254016000000"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:Ingredients>
             <predictedTags jcr:primaryType="nt:unstructured">
                 <winter
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.054Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.922Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.8917419381553929"
                     isCustom="{Boolean}false"
                     name="winter"/>
                 <riding
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.055Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.923Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.8726347292651256"
                     isCustom="{Boolean}false"
                     name="riding"/>
                 <snow
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.056Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.923Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.8675300087906919"
                     isCustom="{Boolean}false"
                     name="snow"/>
                 <ski
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.057Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.924Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.8263417077406027"
                     isCustom="{Boolean}false"
                     name="ski"/>
                 <spraying
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.057Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.925Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.8238024364943578"
                     isCustom="{Boolean}false"
                     name="spraying"/>
                 <snowboard
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.058Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.925Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7881322892044491"
                     isCustom="{Boolean}false"
                     name="snowboard"/>
                 <turning
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.059Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.926Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7753246718427059"
                     isCustom="{Boolean}false"
                     name="turning"/>
                 <mountain
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.059Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.926Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7717937809501245"
                     isCustom="{Boolean}false"
                     name="mountain"/>
                 <sport
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.060Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.927Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7528532979373903"
                     isCustom="{Boolean}false"
                     name="sport"/>
                 <snowboarding
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.061Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.928Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7266205499611699"
                     isCustom="{Boolean}false"
                     name="snowboarding"/>
                 <cold
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.061Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.928Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7171857624078621"
                     isCustom="{Boolean}false"
                     name="cold"/>
                 <snowboarder
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.062Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.929Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7132985726445578"
                     isCustom="{Boolean}false"
                     name="snowboarder"/>
                 <extreme
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.063Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.929Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.7128501051515749"
                     isCustom="{Boolean}false"
                     name="extreme"/>
                 <skier
-                    jcr:lastModified="{Date}2023-01-25T16:03:35.064Z"
+                    jcr:lastModified="{Date}2024-05-13T23:26:34.930Z"
                     jcr:primaryType="nt:unstructured"
                     confidence="{Double}0.703164458556584"
                     isCustom="{Boolean}false"

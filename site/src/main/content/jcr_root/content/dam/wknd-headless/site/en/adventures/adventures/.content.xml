@@ -3,37 +3,39 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="9431c403-77e0-4c00-8527-da7c9624fbf3">
+    jcr:uuid="81b075f7-ec25-4d20-83ae-fddc0d9465e4">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
         cq:lastReplicationAction_publish="Activate"
         cq:name="adventures"
         cq:parentPath="/content/dam/wknd-headless/site/en/adventures"
+        cq:versionCreator="lamont@adobe.com"
         dam:processingId="384101ec-bb79-49fc-889d-1f39aac23901"
         dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.features.json,cq5dam.preview.pdf,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.thumbnail.319.319.png,cqdam.metadata.xml,cqdam.photoshop.x-creative-json]"
         dam:processingRequestedDate="{Date}2022-11-23T20:35:47.285Z"
         dam:runPostProcess="{Boolean}true"
         dam:scene7RequestID="384101ec-bb79-49fc-889d-1f39aac23901"
-        jcr:lastModified="{Date}2022-12-01T15:31:21.673Z"
-        jcr:lastModifiedBy="reference-adjustment-service"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:lastModified="{Date}2024-05-13T18:44:25.122Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Adventures"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2022-12-01T15:31:21.674Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                block="[/content/dam/wknd-headless/site/en/adventures/components/adventure-grid]"
-                block_x0040_LastModified="{Date}2022-11-23T20:35:47.145Z"
+                block="[/content/dam/wknd-headless/site/en/adventures/components/adventure-grid,/content/dam/wknd-headless/site/en/adventures/components/products]"
+                block_x0040_LastModified="{Date}2024-05-13T18:44:25.122Z"
+                block_x0040_LastModifiedBy="lamont@adobe.com"
                 header="/content/dam/wknd-headless/site/en/adventures/components/header"
                 header_x0040_LastModified="{Date}2022-11-23T20:35:47.145Z"
                 positionInNavigation="pos2"
@@ -41,7 +43,10 @@
                 screenFooter_x0040_LastModified="{Date}2022-11-06T15:15:50.052Z"
                 screenHeader_x0040_LastModified="{Date}2022-11-06T15:15:50.052Z"
                 screenName="Adventures"
-                screenName_x0040_LastModified="{Date}2022-11-06T15:19:22.262Z"/>
+                screenName_x0040_LastModified="{Date}2022-11-06T15:19:22.262Z"
+                screenTitle="Adventures"
+                screenTitle_x0040_LastModified="{Date}2024-05-12T16:45:29.719Z"
+                screenTitle_x0040_LastModifiedBy="lamont@adobe.com"/>
         </data>
         <metadata
             dam:scene7FileStatus="NotSupported"

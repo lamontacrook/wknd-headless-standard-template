@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <groupId>com.adobe.aem.guides</groupId>
     <artifactId>wknd-headless.site</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.4-SNAPSHOT</version>
     <packaging>content-package</packaging>
     <name>Standard AEM Site Template</name>
     <description>Site template content package of Standard AEM Site Template</description>

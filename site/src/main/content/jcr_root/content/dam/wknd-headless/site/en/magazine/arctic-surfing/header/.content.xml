@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ab5bd333-6e0f-4f1b-b129-a5dd9ae779de">
+    jcr:uuid="f4501edf-f3f2-412c-9509-3c562be8b618">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -21,13 +21,13 @@
         dam:scene7RequestID="218041fe-ac56-438e-a009-a0794de7fb4e"
         jcr:lastModified="{Date}2024-04-26T16:27:34.607Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Header"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2024-04-26T16:27:34.607Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/header-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
@@ -42,7 +42,7 @@
                 placeholder_x0040_LastModified="{Date}2022-11-22T22:36:37.941Z"/>
         </data>
         <metadata
-            cq:tags="[wknd-headless:location/magazine]"
+            cq:tags="[]"
             dam:scene7FileStatus="NotSupported"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>

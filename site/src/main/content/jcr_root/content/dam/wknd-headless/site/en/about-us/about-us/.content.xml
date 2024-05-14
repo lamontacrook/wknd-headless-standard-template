@@ -3,11 +3,11 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="345b13ab-a0a1-4bae-a42d-e0caa0532a18">
+    jcr:uuid="9513d1b5-8c53-4a5f-90e9-6f6a1a880652">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-25T20:26:54.134Z"
-        cq:lastReplicated_publish="{Date}2024-04-25T20:26:54.134Z"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -19,15 +19,15 @@
         dam:processingRequestedDate="{Date}2022-12-01T05:43:48.262Z"
         dam:runPostProcess="{Boolean}true"
         dam:scene7RequestID="bc010131-86ab-4db1-be45-062809a6ff9d"
-        jcr:lastModified="{Date}2024-02-20T20:36:27.956Z"
+        jcr:lastModified="{Date}2024-05-12T16:49:36.848Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="About Us"
         contentFragment="{Boolean}true"
         lastFragmentSave="{Date}2023-08-31T04:59:38.589Z">
         <data
-            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen"
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/screen-v2"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
@@ -45,7 +45,10 @@
                 positionInNavigation_x0040_ContentType="string"
                 positionInNavigation_x0040_LastModified="{Date}2024-02-20T20:36:27.956Z"
                 screenName="About Us"
-                screenName_x0040_LastModified="{Date}2022-11-06T15:20:14.697Z"/>
+                screenName_x0040_LastModified="{Date}2022-11-06T15:20:14.697Z"
+                screenTitle="About Us"
+                screenTitle_x0040_LastModified="{Date}2024-05-12T16:49:36.848Z"
+                screenTitle_x0040_LastModifiedBy="lamont@adobe.com"/>
         </data>
         <metadata
             dam:scene7FileStatus="NotSupported"

@@ -2,11 +2,11 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:exifEX="http://cipa.jp/exif/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:psAux="http://ns.adobe.com/exif/1.0/aux/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="31d2ec33-8ab9-4dfd-b117-0929ece8b50e">
+    jcr:uuid="ded4fdd3-4984-4d53-88f2-5a214c27f270">
     <jcr:content
         cq:isDelivered="{Boolean}false"
-        cq:lastReplicated="{Date}2024-04-26T22:32:41.979Z"
-        cq:lastReplicated_publish="{Date}2024-04-26T22:32:41.979Z"
+        cq:lastReplicated="{Date}2024-05-14T01:24:21.569Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:24:21.569Z"
         cq:lastReplicatedBy="lamont@adobe.com"
         cq:lastReplicatedBy_publish="lamont@adobe.com"
         cq:lastReplicationAction="Activate"
@@ -24,7 +24,7 @@
         dam:scene7RequestID="543e0601-82a3-40b9-a679-2a03cb9274cd"
         jcr:lastModified="{Date}2024-04-26T22:19:57.138Z"
         jcr:lastModifiedBy="lamont@adobe.com"
-        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="dam:AssetContent"
         dm-sc-sync-pending="{Boolean}false"
         dm-swatch-sync-pending="{Boolean}false"
@@ -173,7 +173,7 @@
             dam:scene7LastModified="{Date}2024-04-26T22:19:46.992Z"
             dam:scene7Name="AdobeStock_110501928"
             dam:scene7PublishedBy="lamont@adobe.com"
-            dam:scene7PublishTimeStamp="{Date}2024-04-26T22:32:43.737Z"
+            dam:scene7PublishTimeStamp="{Date}2024-05-14T01:24:25.621Z"
             dam:scene7Type="Image"
             dam:scene7UploadTimeStamp="{Date}2024-04-26T22:19:46.994Z"
             dam:sha1="5a348448cb40a7ea95365b5bb18b1e704f8e00a3"

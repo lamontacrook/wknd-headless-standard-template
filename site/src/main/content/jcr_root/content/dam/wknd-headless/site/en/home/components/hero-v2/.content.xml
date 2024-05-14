@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3ae8cff2-7986-4c68-b39e-40d87d53bcfb">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicated_publish="{Date}2024-05-14T01:40:16.977Z"
+        cq:lastReplicatedBy="lamont@adobe.com"
+        cq:lastReplicatedBy_publish="lamont@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="hero-v2"
+        cq:parentPath="/content/dam/wknd-headless/site/en"
+        jcr:description="\0"
+        jcr:lastModified="{Date}2024-05-11T00:31:58.034Z"
+        jcr:lastModifiedBy="lamont@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Hero"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-05-11T00:31:58.034Z">
+        <data
+            cq:model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                asset="/content/dam/wknd-headless/assets/AdobeStock_169884895.mp4"
+                asset_x0040_LastModified="{Date}2024-05-11T00:27:13.644Z"
+                asset_x0040_LastModifiedBy="lamont@adobe.com"
+                callToAction="Book Now"
+                callToAction_x0040_LastModified="{Date}2024-05-11T00:27:13.648Z"
+                callToAction_x0040_LastModifiedBy="lamont@adobe.com"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-05-11T00:24:42.955Z"
+                description_x0040_LastModifiedBy="lamont@adobe.com"
+                link="/content/dam/aem-demo-assets/en/adventures/colorado-rock-climbing/colorado-rock-climbing"
+                link_x0040_LastModified="{Date}2024-05-11T00:27:13.649Z"
+                link_x0040_LastModifiedBy="lamont@adobe.com"
+                placeholder_x0040_LastModified="{Date}2024-05-11T00:23:31.973Z"
+                preTitle="Join us for your next adventures."
+                preTitle_x0040_LastModified="{Date}2024-05-11T00:27:13.647Z"
+                preTitle_x0040_LastModifiedBy="lamont@adobe.com"
+                style="hero"
+                style_x0040_LastModified="{Date}2024-05-11T00:27:13.647Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"
+                title="Explore. Discover. Live."
+                title_x0040_LastModified="{Date}2024-05-11T00:27:13.646Z"
+                title_x0040_LastModifiedBy="lamont@adobe.com"/>
+            <running
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-05-11T00:24:42.943Z"
+                asset="/content/dam/gql-demo/assets/AdobeStock_238607111.jpeg"
+                asset_x0040_LastModified="{Date}2024-05-11T00:24:42.945Z"
+                asset_x0040_LastModifiedBy="lamont@adobe.com"
+                callToAction_x0040_LastModified="{Date}2024-05-11T00:24:42.947Z"
+                callToAction_x0040_LastModifiedBy="lamont@adobe.com"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-05-11T00:24:42.946Z"
+                description_x0040_LastModifiedBy="lamont@adobe.com"
+                link_x0040_LastModified="{Date}2024-05-11T00:24:42.948Z"
+                link_x0040_LastModifiedBy="lamont@adobe.com"
+                placeholder_x0040_LastModified="{Date}2024-05-11T00:24:42.947Z"
+                placeholder_x0040_LastModifiedBy="lamont@adobe.com"
+                preTitle_x0040_LastModified="{Date}2024-05-11T00:24:42.945Z"
+                preTitle_x0040_LastModifiedBy="lamont@adobe.com"
+                style_x0040_LastModified="{Date}2024-05-11T00:24:42.946Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"
+                title_x0040_LastModified="{Date}2024-05-11T00:24:42.945Z"
+                title_x0040_LastModifiedBy="lamont@adobe.com"/>
+            <skiing
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-05-11T00:24:42.950Z"
+                asset="/content/dam/wknd-headless/assets/AdobeStock_169884895.mp4"
+                asset_x0040_LastModified="{Date}2024-05-11T00:30:50.785Z"
+                asset_x0040_LastModifiedBy="lamont@adobe.com"
+                callToAction="Book Now"
+                callToAction_x0040_LastModified="{Date}2024-05-11T00:30:50.789Z"
+                callToAction_x0040_LastModifiedBy="lamont@adobe.com"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-05-11T00:24:42.952Z"
+                description_x0040_LastModifiedBy="lamont@adobe.com"
+                link="/content/dam/aem-demo-assets/en/adventures/colorado-rock-climbing/colorado-rock-climbing"
+                link_x0040_LastModified="{Date}2024-05-11T00:30:50.790Z"
+                link_x0040_LastModifiedBy="lamont@adobe.com"
+                placeholder_x0040_LastModified="{Date}2024-05-11T00:24:42.953Z"
+                placeholder_x0040_LastModifiedBy="lamont@adobe.com"
+                preTitle="Join us for your next adventures."
+                preTitle_x0040_LastModified="{Date}2024-05-11T00:30:50.787Z"
+                preTitle_x0040_LastModifiedBy="lamont@adobe.com"
+                style="hero"
+                style_x0040_LastModified="{Date}2024-05-11T00:30:50.788Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"
+                title="Ski. Discover. Live."
+                title_x0040_LastModified="{Date}2024-05-11T00:30:50.786Z"
+                title_x0040_LastModifiedBy="lamont@adobe.com"/>
+            <camping
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-05-11T00:24:42.957Z"
+                asset="/content/dam/wknd-headless/assets/AdobeStock_163855721.mp4"
+                asset_x0040_LastModified="{Date}2024-05-11T00:31:57.892Z"
+                asset_x0040_LastModifiedBy="lamont@adobe.com"
+                callToAction="Book Now"
+                callToAction_x0040_LastModified="{Date}2024-05-11T00:31:57.896Z"
+                callToAction_x0040_LastModifiedBy="lamont@adobe.com"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-05-11T00:24:42.960Z"
+                description_x0040_LastModifiedBy="lamont@adobe.com"
+                link="/content/dam/aem-demo-assets/en/adventures/colorado-rock-climbing/colorado-rock-climbing"
+                link_x0040_LastModified="{Date}2024-05-11T00:31:57.897Z"
+                link_x0040_LastModifiedBy="lamont@adobe.com"
+                placeholder_x0040_LastModified="{Date}2024-05-11T00:24:42.961Z"
+                placeholder_x0040_LastModifiedBy="lamont@adobe.com"
+                preTitle="Join us for your next adventures."
+                preTitle_x0040_LastModified="{Date}2024-05-11T00:31:57.894Z"
+                preTitle_x0040_LastModifiedBy="lamont@adobe.com"
+                style="hero"
+                style_x0040_LastModified="{Date}2024-05-11T00:31:57.895Z"
+                style_x0040_LastModifiedBy="lamont@adobe.com"
+                title="Camp. Discover. Live."
+                title_x0040_LastModified="{Date}2024-05-11T00:31:57.893Z"
+                title_x0040_LastModifiedBy="lamont@adobe.com"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="a6457dc6-8fd9-4ab2-8c72-c0ff72c871d0"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+                _x0040_stringArray_x0040_variations="[running,skiing,camping]"
+                string_x0040_callToAction="Book Now"
+                string_x0040_preTitle="Join us for your next adventures."
+                string_x0040_style="hero"
+                string_x0040_title="Explore. Discover. Live."/>
+            <running
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="2e7845bc-620d-4a8e-a08c-d2e369dbbee1"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"/>
+            <skiing
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="fb47de94-be6e-4669-a5ee-7b8da06a5471"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+                string_x0040_callToAction="Book Now"
+                string_x0040_preTitle="Join us for your next adventures."
+                string_x0040_style="hero"
+                string_x0040_title="Ski. Discover. Live."/>
+            <camping
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="abc12187-d20a-4e10-8146-159df8d12abb"
+                _x0040_string_x0040_model="/conf/aem-demo-assets/settings/dam/cfm/models/teaser-v2"
+                string_x0040_callToAction="Book Now"
+                string_x0040_preTitle="Join us for your next adventures."
+                string_x0040_style="hero"
+                string_x0040_title="Camp. Discover. Live."/>
+        </indexedData>
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured">
+            <dam:cfVariations jcr:primaryType="nt:unstructured">
+                <skiing
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"/>
+                <camping
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"/>
+            </dam:cfVariations>
+        </metadata>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <running
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Running"
+                    name="running"/>
+                <skiing
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Skiing"
+                    name="skiing"/>
+                <camping
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Camping"
+                    name="camping"/>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
